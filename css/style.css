@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+
+:root {
+    --main-color: rgb(240, 88, 0);
+    --accent-color: white;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+        
+}
+.header-nav .logo {
+    font-family: 'Oregano', sans-serif;
+    font-size: 2.1rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--main-color);
+    margin-left: 7%;
+    font-size: 
+}
+[class~=small-logo]{
+    font-size: x-large;
+}
+.header-nav .menu-items {
+    justify-content: flex-end;
+    flex: 1;
+    display: none;
+    margin-right: 25px;   
+}
+.header-nav .menu-items a {
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+    padding: 12px;
+    border: 1px solid transparent;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header-nav .menu-items a:hover {
+     color: var(--accent-color);;
+}
+
+/* Burger men */
+.burger-icon {
+    font-size: 2rem;
+}
+.burger-icon:hover {
+    cursor: pointer;
+}
+#burger-checkbox {
+    display: none;
+}
+.header-nav input:checked ~ .menu-items {
+    display: inline;
+    text-align: center;
+}
+
+@media (min-width: 769px) {
+    .burger-icon {
+        display: none;
+    }
+    .header-nav {
+        display: flex;
+        align-items: center;
+    }
+    #burger-checkbox ~ .menu-items {
+        display: flex;
+    }
+}
+
+#header-top{
+    background-image: url(../img/chocolate-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    align-items: ;
+    justify-content: ;
+    flex-direction: column;
+    padding-top: 25px;    
+}
+/*section handcrafted */
+.handcrafted {
+    display: block;
+    text-align: center;
+    padding: 50px 75px 75px 75px;
+    border: 1px solid transparent;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(19, 16, 16); 
+}
