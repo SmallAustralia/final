@@ -17,14 +17,15 @@
                 <label class="burger-icon" for="burger-checkbox">☰</label>
                 <input type="checkbox" id="burger-checkbox">
             <div class="menu-items">
-                <a href="#cookies-page">Menu</a>
+                <a href="index.html#cookies-page">Menu</a>
                 <a href="about-us.html">About us</a>
                 <a href="locations.html">Locations</a>
             </div>           
         </nav>               
     </header>
-    <div class="card mb-3" >
-        <div class="row">
+    
+    <div class="card mb-3 top-image border border-white" >
+        <div class="row border border-white">
             <div class="col-md-6">
             <img src="img/team.jpg" class="card-img" alt="...">
             </div>
@@ -36,31 +37,63 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="column">
-            <img src="img_nature.jpg" alt="Nature" onclick="myFunction(this);">
+    <section class="gallary-top">
+        <div class="gallary">
+        <h3 class="gallary">Gallery</h3>
         </div>
-        <div class="column">
-            <img src="img_snow.jpg" alt="Snow" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
-        </div>
+        <div class="row gallary-top">
+            <div class="card col-12 col-sm-6 col-md-4 col-lg-3 gallary-top">
+                <img src="img/gallary1.jpg" class="card-img-top" alt="Oatmeal Raisin Cookies" onclick="myFunction(this);">     
+            </div>
+            <div class="card col-12 col-sm-6 col-md-4 col-lg-3  gallary-top">
+                <img src="img/gallary2.jpg" class="card-img-top" alt="Oatmeal Raisin Cookies" onclick="myFunction(this);">                
+            </div>
+            <div class="card col-12 col-sm-6 col-md-4 col-lg-3  gallary-top">
+                <img src="img/gallary3.jpg" class="card-img-top  card-img-molassec" alt="Oatmeal Raisin Cookies" onclick="myFunction(this);">             
+            </div>
+            <div class="card col-12 col-sm-6 col-md-4 col-lg-3  gallary-top">
+                <img src="img/gallary4.jpg" class="card-img-top" alt="Oatmeal Raisin Cookies" onclick="myFunction(this);">           
+            </div>
+            <div class="card col-12 col-sm-6 col-md-4 col-lg-3  gallary-top">
+                <img src="img/gallary5.jpg" class="card-img-top" alt="Oatmeal Raisin Cookies" onclick="myFunction(this);">              
+            </div>
+            <div class="card col-12 col-sm-6 col-md-4 col-lg-3  gallary-top">
+                <img src="img/gallary6.jpg" class="card-img-top" alt="Oatmeal Raisin Cookies" onclick="myFunction(this);">            
+            </div>
+            <div class="card col-12 col-sm-6 col-md-4 col-lg-3  gallary-top">
+                <img src="img/gallary7.jpg" class="card-img-top" alt="Oatmeal Raisin Cookies" onclick="myFunction(this);">              
+            </div>
+            <div class="card col-12 col-sm-6 col-md-4 col-lg-3  gallary-top">
+                <img src="img/gallary8.jpg" class="card-img-top" alt="Oatmeal Raisin Cookies" onclick="myFunction(this);">             
+            </div>
+            <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg" style="width:100%">
+                <div id="imgtext"></div>
+            </div>
+        </div>    
+    </section>
+    <div>
+        <h3 class="story-text-padding">Our Story</h3>
+        <h5 class="story-text-padding">SUNSHINE Bakery was founded in Autumn, 2019</h5>
+        <p>The idea of creating SUNSHINE came about when we lived and worked as bakers in Chicago, Illinois. Our story starts with us, with how we met, what we did and learned, and now you are a part of it.</p>
+        <p>Our very first meeting at our BA in Culinary Arts in 2011 marked the beginning of our journey. We were sitting next to each other at the open baking workshop and have not left each other ever since. SUNSHINE is the apex of eight years of work as cooks who have now become bakers – collecting innovative and creative ideas, sharing skills, food recipes, and our true passion to feed people with the food made with love and care.</p>
+        <p>While in Chicago, we acquired priceless skills and practice by working closely with the best bakers in the industry. </p>
     </div>
-
-    <!-- The expanding image container -->
-    <div class="container">
-    <!-- Close the image -->
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-    <!-- Expanded image -->
-    <img id="expandedImg" style="width:100%">
-
-    <!-- Image text -->
-    <div id="imgtext"></div>
+    <div class="back-image-story">     
+    </div>
+    <div>
+        <p>We moved to London, UK and opened SUNSHINE Bakery. Our small bakery began its journey on a small farm. Since then, we have moved to a more spacious place that we believed will bring us closer to our mutual dream of creating a local bakery.</p>
+        <p>Now, we make every effort to find natural ingredients anywhere we can, ranging from growing organic products in the countryside to collecting products from our small organic backyard at home and establishing partnerships with local producers.</p>
+        <p>Seasonal food is an important principle in creating our new menus. In summer, for instance, you will find more local berries and rhubarb in our meals. As we approach autumn, there will be more stoned fruits and blackberries. Then we will offer pears, apples, and quinces to prepare for the winter.</p>
+    </div>
+    <div class="back-image-bottom">
+    </div>
+    <div>
+        <p>At SUNSHINE, we specialize primarily on baking cookies and flaky pastries. We bake fresh produce each day. All our products are made by hand using a sourdough, which ensures a slow fermentation process. We mix the sourdough starter on day one, mix and shape it the next day, then bake to turn these simple ingredients on the third day. This approach to baking requires the highest level of commitment. We always strive for exceptional baking, delicacy, and client satisfaction.</p>
+        <p>Although it is worth waiting, nothing can be compared with the flavor, that tempting crust and custard of our sourdough, or the smell of fresh-baked butter croissants stuffing the bakery.</p>
+        <p>We are looking forward to baking our cookies for you! </p>
+        <p>Anna & Volodya</p>
     </div>
     <footer class="page-footer font-small teal pt-4">
         <div class="container-fluid text-center text-md-left">
@@ -88,7 +121,7 @@
         </div>
         <div class="row d-flex align-items-center footer-padding">
             <div class="col-md-7 col-lg-8">
-                <p class="text-center text-md-left color"> © Created by</p>
+                <p class="text-center text-md-left color"> © Created by Volodymyr Klepykov &#10004;</p>
             </div>
             <div class="col-md-5 col-lg-4 ml-lg-0">
                 <div class="text-center text-md-right">
@@ -96,7 +129,8 @@
                  </div>
             </div>
          </div> 
-    </footer>       
+    </footer> 
+    <script src="js/index.js"></script>      
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

@@ -16,7 +16,6 @@ body {
   text-decoration: none;
   color: var(--main-color);
   margin-left: 7%;
-  font-size: ;
 }
 [class~="small-logo"] {
   font-size: x-large;
@@ -76,8 +75,6 @@ body {
   background-size: cover;
   min-height: 400px;
   display: flex;
-  align-items: ;
-  justify-content: ;
   flex-direction: column;
   padding-top: 25px;
 }
@@ -92,7 +89,6 @@ body {
   color: #fff;
   background-color: #27292b;
 }
-
 
 
 .hand-line {
@@ -125,15 +121,11 @@ body {
 .hand-line:after {    
 	left: .5em;
 	margin: 0 -50% 0 0;
-	}
-
-
+  }
+  
 .hand-line-two{
     border-bottom: 1px solid rgba(255,255,255,.5);
 }
-
-
-
 .color-menu{
   background-color: #1a1203;
   border-color: #1a1203;
@@ -141,29 +133,26 @@ body {
 }
 
  .ingredients {
-    padding: 0; /* Убираем отступы */
+    padding: 0; 
    }
    .ingredients li {
-    align-items: baseline; /* Выравниваем текст */
-    display: flex; /* Включаем флексы */
-    margin-bottom: 0.5em; /* Отступ снизу */
+    align-items: baseline; 
+    display: flex; 
+    margin-bottom: 0.5em; 
    }
    .ingredients li::before {
-    content: ''; /* Выводим линию */
-    border-bottom: 1px dashed grey; /* Параметры линии */
-    flex-grow: 1; /* Линия занимает всё доступное пространство */
-    order: 2; /* Выводим вторым */
-    margin: 0 5px; /* Расстояние от текста */
+    content: ''; 
+    border-bottom: 1px dashed grey; 
+    flex-grow: 1; 
+    order: 2; 
    }
    .ingredients .value {
-    order: 3; /* Выводим третьим */
+    order: 3; 
    }
 
 .large-letter-menu{
     font-size: 25px;
 }
-
-
 
 
 .cookies {
@@ -220,7 +209,6 @@ body {
 
 
 
-
 #works {
   height: 100vh;
   width: 100%;
@@ -231,7 +219,6 @@ body {
   width: 100%;
   height: 100%;
   background-image: url(../img/footertop.jpg);
-  background-color: red;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -273,8 +260,6 @@ span {
   background-attachment: fixed;
 }
 
-
-
 .card-img-molassec{
    height:275px;
   overflow:hidden; 
@@ -292,8 +277,6 @@ span {
 .location-padington{ 
   margin-bottom: 50px;
 }
-
-
 
 
 .page-footer{
@@ -317,11 +300,6 @@ padding-left: 15px;
     background-color: grey;
     width: 980px;
 }
-
-
-
-
-
 
 
 a.btn-social,
