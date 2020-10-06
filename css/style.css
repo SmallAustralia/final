@@ -5,9 +5,13 @@
   --main-color: rgb(240, 88, 0);
   --accent-color: white;
 }
+html, body{
+overflow-x: hidden;
+}
 body {
   max-width: 980px;
   margin: auto;
+  position: relative
 }
 .header-nav .logo {
   font-family: "Oregano", sans-serif;
@@ -88,6 +92,7 @@ body {
   line-height: 1.5;
   color: #fff;
   background-color: #27292b;
+  min-width: 400px;
 }
 
 
@@ -208,7 +213,12 @@ body {
 }
 
 
-
+@media only screen and (max-width:749px) {
+  #works{
+    background-attachment: scroll;
+     background-size: 100% 100%;
+   }
+}
 #works {
   height: 100vh;
   width: 100%;
@@ -240,6 +250,10 @@ body {
   padding-bottom: 250px;
   padding-top: 150px;
   padding-right: 250px;
+  
+}
+.with-ok{
+  min-width: 250px;
 }
 h2 {
   color: white;

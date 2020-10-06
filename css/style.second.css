@@ -6,9 +6,13 @@
   --main-color: rgb(240, 88, 0);
   --accent-color: white;
 }
+html, body{
+overflow-x: hidden;
+}
 body {
   max-width: 980px;
   margin: auto;
+  position: relative
 }
 .header-nav .logo {
   font-family: "Oregano", sans-serif;
@@ -102,7 +106,10 @@ body {
   overflow:hidden;
 }
 
-
+.with-leght{
+margin:5px;
+padding: 5px;
+}
 
 /*Form and parallax*/
 
